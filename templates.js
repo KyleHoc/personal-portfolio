@@ -29,7 +29,7 @@ class Header extends HTMLElement{
           <body>
             <!--Display a nav bar with a logo that links to the index-->
             <nav>
-              <a class="site-name" href="/">Kyle Hoc Web Development</a>
+              <a class="site-name" href="./index.html">Kyle Hoc Web Development</a>
               <div class="nav-container">
                 <!--Display nav links to other pages on the site-->
                 <ul>
