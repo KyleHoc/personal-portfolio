@@ -193,6 +193,14 @@ hr{
     text-decoration: underline;
 }
 
+.card ul{
+    list-style-type: none;
+}
+
+.card ul li{
+    margin-bottom: 10px;
+}
+
 /*Styling for card titles*/
 .card-title{
     text-align: center;
