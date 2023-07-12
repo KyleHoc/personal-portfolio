@@ -69,6 +69,14 @@ footer li{
     display: inline;
 }
 
+.intro-content p{
+    margin-left: 35px;
+}
+
+.bottom{
+    margin-bottom: 200px;
+}
+
 /*Styling for the navigation links*/
 li a{
     color: #FFF;
@@ -87,7 +95,7 @@ a:hover{
 
 /*Styling for main content div*/
 .main-content{
-    border: solid 15px #003811;
+    border: solid 10px #003811;
     border-radius: 20px;
     margin: 30px 50px 0 50px;
     padding: 20px 100px 20px 100px;
@@ -101,8 +109,14 @@ a:hover{
     line-height: 150%;
 }
 
-h1{
+h1, h2, h3{
     color:#0F6633;
+    margin-bottom: 0;
+}
+
+hr{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .paragraph{
@@ -114,8 +128,46 @@ h1{
     margin-bottom: 50px;
 }
 
+.resume-header{
+    text-align: center;
+    width: 100%;
+}
+
 .resume-content{
     text-align: left;
+    margin-left: 30%;
+}
+
+.contact{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact p {
+    text-align: center;
+    width: 100%;
+}
+
+.info{
+    color:#0F6633;
+    font-size: 1em;
+}
+
+.education{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    margin-left: 2%;
+}
+
+.education ul{
+    margin-top: 1%;
+}
+
+.employment{
+    margin-left: 2%;
 }
 
 .grid-container{
@@ -165,5 +217,33 @@ ol{
 }
 
 ol li{
-    margin-top: 15px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    
+}
+
+.error-container{
+    text-align: center;
+    margin: 3% 5% 0 5%;
+}
+
+.error{
+    background-color: #041A0D;
+    color:#FFF;
+    font-size: 12em;
+}
+
+.error-text{
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+.download-link{
+    color: #0F6633;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+    padding-top: 5px;
 }

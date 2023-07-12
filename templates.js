@@ -65,12 +65,12 @@ class Footer extends HTMLElement{
             <p>Quick Links</p>
             <ul>
                     <li>My Github Repositories:&nbsp &nbsp</li>
-                    <li><a class="nav-link">WEB 230</a></li>
-                    <li><a class="nav-link">WEB 330</a></li>
-                    <li><a class="nav-link">WEB 340</a></li><br>
-                    <li><a class="nav-link">Bellevue University Web Development Degree</a></li>
-                    <li><a class="nav-link">Course Youtube Channel</a></li><br>
-                    <li><a class="nav-link">WEB 330 Course Github Repository</a></li>
+                    <li><a class="nav-link" href="https://github.com/KyleHoc/web-231">WEB 231</a></li>
+                    <li><a class="nav-link" href="https://github.com/KyleHoc/web-330">WEB 330</a></li>
+                    <li><a class="nav-link" href="https://github.com/KyleHoc/web-340">WEB 340</a></li><br>
+                    <li><a class="nav-link" href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/">Bellevue University Web Development Degree</a></li>
+                    <li><a class="nav-link" href="https://www.youtube.com/user/bellevueuniversity">Course Youtube Channel</a></li><br>
+                    <li><a class="nav-link" href="https://github.com/buwebdev/web-330">WEB 330 Course Github Repository</a></li>
             </ul>
         </footer>
       </body>
@@ -93,7 +93,7 @@ class AltFooter extends HTMLElement{
         //Set the innerHTML of the footer
         this.innerHTML = `<!--Display a footer for use on each page of the site, and close the body and HTML tags-->
         <footer class="footer">
-            <p>Bellevue University WEB 330</p>
+            <p>Bellevue University WEB 330 - <a href="https://unsplash.com/">Photos courtesy of Unsplash</a></p>
         </footer>
       </body>
     </html>`
