@@ -250,6 +250,10 @@ ol li{
     color: #0F6633;
 }
 
+.download-link:visited{
+    color:#003811;
+}
+
 .content{
     display: grid;
     grid-template-columns: .75fr 1fr;
