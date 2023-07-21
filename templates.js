@@ -93,7 +93,7 @@ class AltFooter extends HTMLElement{
         //Set the innerHTML of the footer
         this.innerHTML = `<!--Display a footer for use on each page of the site, and close the body and HTML tags-->
         <footer class="footer">
-            <p>Bellevue University WEB 330 - <a href="https://unsplash.com/">Photos courtesy of Unsplash</a></p>
+            <p>Bellevue University WEB 330</p>
         </footer>
       </body>
     </html>`
