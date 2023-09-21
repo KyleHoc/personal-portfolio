@@ -155,7 +155,11 @@ hr{
     width: 100%;
     justify-items: center;
     padding-top: 10px;
-    height: 170%;
+    height: 120%;
+}
+
+.api{
+    height: 200%;
 }
 
 /*Provide styling to a card and the title and content within it*/
