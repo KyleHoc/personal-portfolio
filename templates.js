@@ -102,3 +102,49 @@ class AltFooter extends HTMLElement{
 
 //Define the custom element as "portfolio-footer"
 customElements.define("alt-footer", AltFooter);
+
+
+//Declare a class header that extends HTMLElement
+class videoHeader extends HTMLElement{
+    //Call super() in the constructor to initialize Header
+    constructor(){
+        super();
+    }
+
+    //Declare a function for setting the HTML of the component
+    connectedCallback(){
+        //Set the innerHTML of the header
+        this.innerHTML = `
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <!--Provide a title, metadata, link a stylesheet, and Google Fonts-->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Personal Portfolio</title>
+            <link rel="stylesheet" href="../site.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+4&display=swap" rel="stylesheet"> 
+          </head>
+          <body>
+            <!--Display a nav bar with a logo that links to the index-->
+            <nav>
+              <a class="site-name" href="../index.html">Kyle Hoc Web Development</a>
+              <div class="nav-container">
+                <!--Display nav links to other pages on the site-->
+                <ul>
+                    <li><a class="nav-link" href="../about.html">Bio</a></li>
+                    <li><a class="nav-link" href="../resume.html">Resume</a></li>
+                    <li><a class="nav-link" href="../projects.html">Projects</a></li>
+                    <li><a class="nav-link" href="../database.html">Database Diagrams</a></li>
+                    <li><a class="nav-link" href="../api-tests.html">API Unit Tests</a></li>
+                    <li><a class="nav-link" href="../bucket-list.html">Bucket List</a></li>
+                </ul>
+              </div>
+            </nav>`;
+    }
+}
+
+//Define the custom element as "portfolio-header"
+customElements.define("video-header", videoHeader);
