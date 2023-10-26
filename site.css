@@ -358,10 +358,13 @@ ol li{
 .pres-link{
     color: #003811;
     text-decoration: underline;
-    margin-left: 120px;
     font-size: 20px;
 }
 
 .pres-link:visited{
     color: #003811
+}
+
+.pres-div{
+    text-align: left;
 }
