@@ -367,4 +367,12 @@ ol li{
 
 .pres-div{
     text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1.7fr 1.7fr;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.next-col{
+    margin-top: 9%;
 }
