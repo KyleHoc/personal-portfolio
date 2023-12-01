@@ -368,11 +368,16 @@ ol li{
 .pres-div{
     text-align: left;
     display: grid;
-    grid-template-columns: 1fr 1.7fr 1.7fr;
+    grid-template-columns: 1fr 1.2fr 1.5fr;
     width: 90%;
     margin-left: 10%;
 }
 
 .next-col{
-    margin-top: 10%;
+    margin-top: 11%;
+    
+}
+
+.third-col{
+    margin-top: 9%;
 }
